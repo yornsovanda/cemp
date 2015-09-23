@@ -24,6 +24,23 @@ Template Name: Landing page
 		</div>
 	</div>
 
+	<div class="latest-news">
+		<div class="container clearfix">
+			<h3>Latest News</h3>
+			<?php
+			echo sp_grid_cover_albums('', 4);
+			?>
+		</div>
+	</div>
+	<div class="upcoming-events">
+		<div class="container clearfix">
+			<h3>Upcoming Events</h3>
+			<?php
+			echo sp_grid_cover_albums('', 4);
+			?>
+		</div>
+	</div>
+
 	<!-- Start Service highlight -->
 	<div class="service-section">
 		<div class="container clearfix">
@@ -35,7 +52,7 @@ Template Name: Landing page
 			echo sp_grid_featured_page( $args, 2 );
 		?>
 		</div>
-	</div> <!-- .services -->
+	</div><!-- .services -->
 
 	<!-- Start Project Gallery -->
 	<div class="project-section">
@@ -47,10 +64,10 @@ Template Name: Landing page
 		</header>
 		<div class="container clearfix">
 		<?php
-			echo sp_grid_cover_albums('', 3);
+			echo sp_grid_cover_albums('', 4);
 		?>
 		</div>
-	</div> <!-- .projects -->
+	</div><!-- .projects -->
 
 	<!-- Start Parnter -->
 	<div class="partner-section">
@@ -67,11 +84,5 @@ Template Name: Landing page
 			<?php echo sp_client_posts_slide(); ?>
 		</div>
 	</div> <!-- .client -->
-
-
-
-
-
-
 	
 <?php get_footer(); ?>
