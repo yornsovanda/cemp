@@ -54,7 +54,7 @@ Template Name: Landing page
 		</div>
 	</div><!-- .services -->
 
-	<!-- Start Project Gallery -->
+	<!-- Start Project Gallery 
 	<div class="project-section">
 		<header>
 			<div class="container clearfix">
@@ -67,7 +67,7 @@ Template Name: Landing page
 			echo sp_grid_cover_albums('', 4);
 		?>
 		</div>
-	</div><!-- .projects -->
+	</div> .projects -->
 
 	<!-- Start Parnter -->
 	<div class="partner-section">

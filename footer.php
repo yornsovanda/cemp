@@ -1,3 +1,20 @@
+    <div id="footer-category">
+        <div class="container clearfix">
+            <h3>Category</h3>
+            <div class="one-fourth">
+                <p>sidebare 1</p>
+            </div>
+            <div class="one-fourth">
+                <p>sidebare 2</p>
+            </div>
+            <div class="one-fourth">
+                <p>sidebare 3</p>
+            </div>
+            <div class="one-fourth last">
+                <p>sidebare 4</p>
+            </div>
+        </div>
+    </div>
     <aside id="footer-widget">
         <div class="container clearfix">
         <div class="quick-contact">
